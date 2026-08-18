@@ -25,5 +25,5 @@ jobs:
           ARBOX_USER_EMAIL: ${{ secrets.ARBOX_USER_EMAIL }}
           ARBOX_USER_PASSWORD: ${{ secrets.ARBOX_USER_PASSWORD }}
           LOCATION_NAME: "JustFit Karmia"
-          WAIT_FOR_TIME: "false"
+          ENROLLMENT_TIME: "00:00"
         run: node app.js
